@@ -1,3 +1,6 @@
 #priceOutput {
   display:none;
 }
+body {
+  background-image: url(img/poseidon.jpg);
+}
