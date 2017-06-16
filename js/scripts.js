@@ -17,18 +17,13 @@ priceReadout();
 };
 errorReadoutSize = function() {
   $("#warningPlace").text("Please be sure to select a size for your pizza!")
-}
+};
 priceReadout = function() {
   $("#priceOutput").text(totalPrice)
   $("#priceOutput").show()
-}
+};
 
-// end arguably redundant functions
 $(document).ready(function(){
-  $("form#radioForm").submit(function(event) {
-    event.preventDefault();
-
-  });
   $("button#currentValueButton").click(function(event){
     event.preventDefault();
     pizzaSizeArg = $("input[type='radio'][name='sizeRadio']:checked").val();
@@ -37,6 +32,6 @@ $(document).ready(function(){
       toppingsArray.push($(this).val());
     });
     var userOrder = new pizzaOrder(toppingsArray, pizzaSizeArg);
-    userOrder.totalCalc()
+    userOrder.totalCalc();
   });
 });
