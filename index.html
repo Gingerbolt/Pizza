@@ -11,17 +11,17 @@
     <div class="container">
       <h1>Order your pie from the deep</h1>
       <form id="radioForm">
-        <div class="pizzaSiz" id="pizzaSize">
+        <div class="pizzaSiz">
         <label class="custom-control custom-radio">
-          <input id="size1" name="small" type="radio" class="custom-control-input" value="Small">
+          <input id="size1" name="sizeRadio" type="radio" class="custom-control-input" value="Small">
           <span class="custom-control-description">Small</span>
         </label>
         <label class="custom-control custom-radio">
-          <input id="size2" name="medium" type="radio" class="custom-control-input" value="Medium">
+          <input id="size2" name="sizeRadio" type="radio" class="custom-control-input" value="Medium">
           <span class="custom-control-description">Medium</span>
         </label>
         <label class="custom-control custom-radio">
-          <input id="size3" name="large" type="radio" class="custom-control-input" value="Large">
+          <input id="size3" name="sizeRadio" type="radio" class="custom-control-input" value="Large">
           <span class="custom-control-description">Large</span>
         </label>
         </div>
@@ -109,6 +109,7 @@
         </div>
       </form>
       <form id="submitbuttons">
+        <h1 id="priceOutput">Current Price:</h1>
         <button type="submit" class="btn-info" id="currentValueButton">Add current pizza to order!</button>
         <button type="submit" class="btn-success" id="finalSubmission">Submit order!</button>
       </form>
