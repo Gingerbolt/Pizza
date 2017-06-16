@@ -17,7 +17,8 @@ _<li> Press the 'submit' button to place your 'order' </li>_
 _</ol>_
 ## Specs
 
-_<li> takes any number of pizzas and toppings as user input </li>_
+_<li> rejects orders without size defined</li>_
+_<li> takes any size and number of toppings as user input </li>_
 _<li> outputs total pricing of pizza order </li>_
 
 ## Support and contact details
