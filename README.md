@@ -18,8 +18,9 @@ _</ol>_
 ## Specs
 
 _<li> rejects orders without size defined</li>_
-_<li> takes any size and number of toppings as user input </li>_
-_<li> outputs total pricing of pizza order </li>_
+input: [size = ] output: alert "Please select a size for your order!"
+_<li> outputs total pricing of pizza order dependent on size and number of toppings on order </li>_
+input: [size = medium] [toppings = 4] output: "$14.00"
 
 ## Support and contact details
 
